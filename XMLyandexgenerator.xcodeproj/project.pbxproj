@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611A1AF82620DDF4007CF951 /* XMLyandexgeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A1AE52620DDF0007CF951 /* XMLyandexgeneratorApp.swift */; };
+		611A1AF92620DDF4007CF951 /* XMLyandexgeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A1AE52620DDF0007CF951 /* XMLyandexgeneratorApp.swift */; };
+		611A1AFA2620DDF4007CF951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A1AE62620DDF0007CF951 /* ContentView.swift */; };
+		611A1AFB2620DDF4007CF951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A1AE62620DDF0007CF951 /* ContentView.swift */; };
+		611A1AFC2620DDF4007CF951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611A1AE72620DDF4007CF951 /* Assets.xcassets */; };
+		611A1AFD2620DDF4007CF951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611A1AE72620DDF4007CF951 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		611A1AE52620DDF0007CF951 /* XMLyandexgeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLyandexgeneratorApp.swift; sourceTree = "<group>"; };
+		611A1AE62620DDF0007CF951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		611A1AE72620DDF4007CF951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		611A1AEC2620DDF4007CF951 /* XMLyandexgenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLyandexgenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611A1AEF2620DDF4007CF951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611A1AF42620DDF4007CF951 /* XMLyandexgenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLyandexgenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611A1AF62620DDF4007CF951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611A1AF72620DDF4007CF951 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		611A1AE92620DDF4007CF951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611A1AF12620DDF4007CF951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611A1ADF2620DDEF007CF951 = {
+			isa = PBXGroup;
+			children = (
+				611A1AE42620DDEF007CF951 /* Shared */,
+				611A1AEE2620DDF4007CF951 /* iOS */,
+				611A1AF52620DDF4007CF951 /* macOS */,
+				611A1AED2620DDF4007CF951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		611A1AE42620DDEF007CF951 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				611A1AE52620DDF0007CF951 /* XMLyandexgeneratorApp.swift */,
+				611A1AE62620DDF0007CF951 /* ContentView.swift */,
+				611A1AE72620DDF4007CF951 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		611A1AED2620DDF4007CF951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				611A1AEC2620DDF4007CF951 /* XMLyandexgenerator.app */,
+				611A1AF42620DDF4007CF951 /* XMLyandexgenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		611A1AEE2620DDF4007CF951 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				611A1AEF2620DDF4007CF951 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		611A1AF52620DDF4007CF951 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				611A1AF62620DDF4007CF951 /* Info.plist */,
+				611A1AF72620DDF4007CF951 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		611A1AEB2620DDF4007CF951 /* XMLyandexgenerator (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611A1B002620DDF4007CF951 /* Build configuration list for PBXNativeTarget "XMLyandexgenerator (iOS)" */;
+			buildPhases = (
+				611A1AE82620DDF4007CF951 /* Sources */,
+				611A1AE92620DDF4007CF951 /* Frameworks */,
+				611A1AEA2620DDF4007CF951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMLyandexgenerator (iOS)";
+			productName = "XMLyandexgenerator (iOS)";
+			productReference = 611A1AEC2620DDF4007CF951 /* XMLyandexgenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		611A1AF32620DDF4007CF951 /* XMLyandexgenerator (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611A1B032620DDF4007CF951 /* Build configuration list for PBXNativeTarget "XMLyandexgenerator (macOS)" */;
+			buildPhases = (
+				611A1AF02620DDF4007CF951 /* Sources */,
+				611A1AF12620DDF4007CF951 /* Frameworks */,
+				611A1AF22620DDF4007CF951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMLyandexgenerator (macOS)";
+			productName = "XMLyandexgenerator (macOS)";
+			productReference = 611A1AF42620DDF4007CF951 /* XMLyandexgenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		611A1AE02620DDEF007CF951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					611A1AEB2620DDF4007CF951 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					611A1AF32620DDF4007CF951 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 611A1AE32620DDEF007CF951 /* Build configuration list for PBXProject "XMLyandexgenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 611A1ADF2620DDEF007CF951;
+			productRefGroup = 611A1AED2620DDF4007CF951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				611A1AEB2620DDF4007CF951 /* XMLyandexgenerator (iOS) */,
+				611A1AF32620DDF4007CF951 /* XMLyandexgenerator (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		611A1AEA2620DDF4007CF951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611A1AFC2620DDF4007CF951 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611A1AF22620DDF4007CF951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611A1AFD2620DDF4007CF951 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		611A1AE82620DDF4007CF951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611A1AFA2620DDF4007CF951 /* ContentView.swift in Sources */,
+				611A1AF82620DDF4007CF951 /* XMLyandexgeneratorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611A1AF02620DDF4007CF951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611A1AFB2620DDF4007CF951 /* ContentView.swift in Sources */,
+				611A1AF92620DDF4007CF951 /* XMLyandexgeneratorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		611A1AFE2620DDF4007CF951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		611A1AFF2620DDF4007CF951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		611A1B012620DDF4007CF951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K72ZPG3T29;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.XMLyandexgenerator";
+				PRODUCT_NAME = XMLyandexgenerator;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		611A1B022620DDF4007CF951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K72ZPG3T29;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.XMLyandexgenerator";
+				PRODUCT_NAME = XMLyandexgenerator;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		611A1B042620DDF4007CF951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K72ZPG3T29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.XMLyandexgenerator";
+				PRODUCT_NAME = XMLyandexgenerator;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		611A1B052620DDF4007CF951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K72ZPG3T29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.XMLyandexgenerator";
+				PRODUCT_NAME = XMLyandexgenerator;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		611A1AE32620DDEF007CF951 /* Build configuration list for PBXProject "XMLyandexgenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611A1AFE2620DDF4007CF951 /* Debug */,
+				611A1AFF2620DDF4007CF951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611A1B002620DDF4007CF951 /* Build configuration list for PBXNativeTarget "XMLyandexgenerator (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611A1B012620DDF4007CF951 /* Debug */,
+				611A1B022620DDF4007CF951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611A1B032620DDF4007CF951 /* Build configuration list for PBXNativeTarget "XMLyandexgenerator (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611A1B042620DDF4007CF951 /* Debug */,
+				611A1B052620DDF4007CF951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 611A1AE02620DDEF007CF951 /* Project object */;
+}
