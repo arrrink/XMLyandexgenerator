@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,21 @@
 		611A1AFB2620DDF4007CF951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A1AE62620DDF0007CF951 /* ContentView.swift */; };
 		611A1AFC2620DDF4007CF951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611A1AE72620DDF4007CF951 /* Assets.xcassets */; };
 		611A1AFD2620DDF4007CF951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611A1AE72620DDF4007CF951 /* Assets.xcassets */; };
+		611A1B0A2620DE3F007CF951 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 611A1B092620DE3F007CF951 /* SwiftSoup */; };
+		611A1B152620E48A007CF951 /* 2303.csv in Resources */ = {isa = PBXBuildFile; fileRef = 611A1B142620E48A007CF951 /* 2303.csv */; };
+		611A1B162620E48A007CF951 /* 2303.csv in Resources */ = {isa = PBXBuildFile; fileRef = 611A1B142620E48A007CF951 /* 2303.csv */; };
+		611A1B262621B2A7007CF951 /* output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 611A1B252621B2A6007CF951 /* output.txt */; };
+		611A1B272621B2A7007CF951 /* output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 611A1B252621B2A6007CF951 /* output.txt */; };
+		61B0FB6F266A4CC400CB7DCC /* tb0406.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61B0FB6E266A4CC400CB7DCC /* tb0406.csv */; };
+		61B0FB70266A4CC400CB7DCC /* tb0406.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61B0FB6E266A4CC400CB7DCC /* tb0406.csv */; };
+		61B0FB79266A4DF800CB7DCC /* filter.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61B0FB78266A4DF800CB7DCC /* filter.csv */; };
+		61B0FB7A266A4DF800CB7DCC /* filter.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61B0FB78266A4DF800CB7DCC /* filter.csv */; };
+		61B0FB7E266A508400CB7DCC /* objects.txt in Resources */ = {isa = PBXBuildFile; fileRef = 61B0FB7D266A508400CB7DCC /* objects.txt */; };
+		61B0FB7F266A508400CB7DCC /* objects.txt in Resources */ = {isa = PBXBuildFile; fileRef = 61B0FB7D266A508400CB7DCC /* objects.txt */; };
+		61C2FC2B265709BE002D5C1B /* ta2005.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61C2FC2A265709BE002D5C1B /* ta2005.csv */; };
+		61C2FC2C265709BE002D5C1B /* ta2005.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61C2FC2A265709BE002D5C1B /* ta2005.csv */; };
+		61D0975F26813EF000444B02 /* Filter2206.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61D0975E26813EF000444B02 /* Filter2206.csv */; };
+		61D0976026813EF000444B02 /* Filter2206.csv in Resources */ = {isa = PBXBuildFile; fileRef = 61D0975E26813EF000444B02 /* Filter2206.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,13 @@
 		611A1AF42620DDF4007CF951 /* XMLyandexgenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLyandexgenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		611A1AF62620DDF4007CF951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		611A1AF72620DDF4007CF951 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		611A1B142620E48A007CF951 /* 2303.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2303.csv; sourceTree = "<group>"; };
+		611A1B252621B2A6007CF951 /* output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+		61B0FB6E266A4CC400CB7DCC /* tb0406.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tb0406.csv; sourceTree = "<group>"; };
+		61B0FB78266A4DF800CB7DCC /* filter.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter.csv; sourceTree = "<group>"; };
+		61B0FB7D266A508400CB7DCC /* objects.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objects.txt; sourceTree = "<group>"; };
+		61C2FC2A265709BE002D5C1B /* ta2005.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ta2005.csv; sourceTree = "<group>"; };
+		61D0975E26813EF000444B02 /* Filter2206.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Filter2206.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611A1B0A2620DE3F007CF951 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +82,13 @@
 			children = (
 				611A1AE52620DDF0007CF951 /* XMLyandexgeneratorApp.swift */,
 				611A1AE62620DDF0007CF951 /* ContentView.swift */,
+				61B0FB7D266A508400CB7DCC /* objects.txt */,
+				611A1B142620E48A007CF951 /* 2303.csv */,
+				61D0975E26813EF000444B02 /* Filter2206.csv */,
+				61B0FB78266A4DF800CB7DCC /* filter.csv */,
+				61B0FB6E266A4CC400CB7DCC /* tb0406.csv */,
+				61C2FC2A265709BE002D5C1B /* ta2005.csv */,
+				611A1B252621B2A6007CF951 /* output.txt */,
 				611A1AE72620DDF4007CF951 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -106,6 +136,9 @@
 			dependencies = (
 			);
 			name = "XMLyandexgenerator (iOS)";
+			packageProductDependencies = (
+				611A1B092620DE3F007CF951 /* SwiftSoup */,
+			);
 			productName = "XMLyandexgenerator (iOS)";
 			productReference = 611A1AEC2620DDF4007CF951 /* XMLyandexgenerator.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +186,9 @@
 				Base,
 			);
 			mainGroup = 611A1ADF2620DDEF007CF951;
+			packageReferences = (
+				611A1B082620DE3F007CF951 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 611A1AED2620DDF4007CF951 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -168,6 +204,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D0975F26813EF000444B02 /* Filter2206.csv in Resources */,
+				61B0FB79266A4DF800CB7DCC /* filter.csv in Resources */,
+				611A1B262621B2A7007CF951 /* output.txt in Resources */,
+				61B0FB7E266A508400CB7DCC /* objects.txt in Resources */,
+				611A1B152620E48A007CF951 /* 2303.csv in Resources */,
+				61B0FB6F266A4CC400CB7DCC /* tb0406.csv in Resources */,
+				61C2FC2B265709BE002D5C1B /* ta2005.csv in Resources */,
 				611A1AFC2620DDF4007CF951 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +219,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D0976026813EF000444B02 /* Filter2206.csv in Resources */,
+				61B0FB7A266A4DF800CB7DCC /* filter.csv in Resources */,
+				611A1B272621B2A7007CF951 /* output.txt in Resources */,
+				61B0FB7F266A508400CB7DCC /* objects.txt in Resources */,
+				611A1B162620E48A007CF951 /* 2303.csv in Resources */,
+				61B0FB70266A4CC400CB7DCC /* tb0406.csv in Resources */,
+				61C2FC2C265709BE002D5C1B /* ta2005.csv in Resources */,
 				611A1AFD2620DDF4007CF951 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +489,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		611A1B082620DE3F007CF951 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		611A1B092620DE3F007CF951 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 611A1B082620DE3F007CF951 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 611A1AE02620DDEF007CF951 /* Project object */;
 }
